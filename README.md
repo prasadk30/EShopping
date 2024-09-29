@@ -12,7 +12,6 @@ EShopping is a demonstration project of an E-Commerce website built using Java, 
 - Hibernate
 - MySQL (or any other RDBMS)
 - Maven
-- RESTful APIs
 
 ## Features
 - User authentication (Registration/Login) with Spring Security.
