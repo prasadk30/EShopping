@@ -1,6 +1,6 @@
 # EShopping
 
-##Project Overview
+## Project Overview
 EShopping is a demonstration project of an E-Commerce website built using Java, Spring Boot, Spring Security, Thymeleaf, HTML, CSS, Bootstrap, and MySQL database. It features user authentication, product management, and a responsive UI for a seamless shopping experience.
 
 ## Technologies Used
@@ -15,33 +15,30 @@ EShopping is a demonstration project of an E-Commerce website built using Java, 
 - RESTful APIs
 
 ## Features
-1. **User authentication (Registration/Login) with Spring Security.
-2. **Role-based access (e.g., Admin and User roles).
-3. **Product listing with pagination.
-4. **Add, Edit, and Delete products (Admin only).
-5. **Shopping cart functionality.
-6. **Secure payment integration (future scope).
-7. **Responsive design with Bootstrap and Thymeleaf.
-8. **Backend powered by Spring Boot, with MySQL for data persistence.
+- User authentication (Registration/Login) with Spring Security.
+- Role-based access (e.g., Admin and User roles).
+- Product listing with pagination.
+- Add, Edit, and Delete products (Admin only).
+- Shopping cart functionality.
+- Secure payment integration (future scope).
+- Responsive design with Bootstrap and Thymeleaf.
+- Backend powered by Spring Boot, with MySQL for data persistence.
 
 ### Future Enhancements
-1. **Integration with payment gateways.
-2. **Proper User profile management.
-3. **Order tracking.
-
-###Contributing
-Contributions are welcome! Feel free to fork this project, create a feature branch, and submit a pull request.
-
+- Integration with payment gateways.
+- Proper User profile management.
+- Order tracking.
 
 ## Database Configuration
 
-**Set up a MySQL database
+- Set up a MySQL database
 
 CREATE DATABASE eshopping_db;
 
-**Update application.properties (or application.yml) with your MySQL credentials:
-This project uses MySQL as the database. You can configure your own database.
-No Need to create tables after Build and Run the Project tables will get automatically created. 
+- Update application.properties (or application.yml) with your MySQL credentials:
+- This project uses MySQL as the database. You can configure your own database.
+- No Need to create tables after Build and Run the Project tables will get automatically created.
+- 
 Example configuration for MySQL:
 
 ```properties
@@ -62,3 +59,6 @@ spring.mail.password=********
 spring.mail.port=587
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
+
+## Contributing
+Contributions are welcome! Feel free to fork this project, create a feature branch, and submit a pull request.
